@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    background-color: #67b35c;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+    .image-wrapper {
+        width: 70px;
+        height: 70px;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-wrapper {
+        display: flex;
+
+        .icon-wrapper {
+            background-color: white;
+            padding: 10px;
+            border-radius: 999px;
+            margin: 0px 20px;
+            cursor: pointer;
+
+            .icon-medsos {
+                width: 30px;
+                height: 30px;
+                object-fit: contain; 
+            }
+        }
+    }
+
+    .CR p {
+        color: white;
+        font-size: 20px;
+    }
+}
